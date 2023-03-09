@@ -13,32 +13,49 @@ Python 3.7, Django 2.2, DRF, JWT
 
 Клонируй репозиторий и перейди в него в командной строке:
 
-``` cd api_final_yatube```
+```bash
+cd api_final_yatube
+```
 
 Cоздай и активируй виртуальное окружение:
 
-```python -m venv venv```
+```bash
+python -m venv venv
+```
 
 * Если у тебя Linux/macOS
 
-    ```source venv/bin/activate```
+    ```bash
+    source venv/bin/activate
+    ```
 
 * Если у тебя windows
 
-    ```source venv/scripts/activate```
+    ```bash
+    source venv/scripts/activate
+    ```
 
 Установи зависимости из файла requirements.txt:
-```python -m pip install --upgrade pip```
 
-```pip install -r requirements.txt```
+```bash
+python -m pip install --upgrade pip
+```
+
+```bash
+pip install -r requirements.txt
+```
 
 Выполни миграции:
 
-```python manage.py migrate```
+```bash
+python manage.py migrate
+```
 
 Запусти проект:
 
-```python manage.py runserver```
+```bash
+python manage.py runserver
+```
 
 ### Автор:
 
